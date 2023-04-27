@@ -1,0 +1,111 @@
+main#todoconteudo article#conteiner section#conteudo {
+    background: #0F0F0F url(../IMG/FotoMain2.png) center center/contain no-repeat;
+
+}
+
+main#todoconteudo article#conteiner section#conteudo div#texto {
+    display: block;
+    margin: auto;
+    width: 500px;
+    padding-top: 235px;
+
+}
+
+main#todoconteudo article#conteiner section#conteudo div#texto legend{
+    font-size: 20px;
+    color: rgb(218, 53, 53);
+    text-align: center;
+
+}
+
+
+main#todoconteudo article#conteiner section#conteudo div#texto div#campo1 {
+    padding: 10px;
+
+}
+
+main#todoconteudo article#conteiner section#conteudo div#texto div#campo1 div#campo2 input {
+    display: inline-block;
+    width: 232px;
+    height: 30px;
+    margin-bottom: 10px;
+
+}
+
+main#todoconteudo article#conteiner section#conteudo div#texto div#campo1 p input {
+    display: block;
+    width: 70px;
+    margin: auto;
+
+}
+
+@media screen and (max-width:992px) and (min-width:668px) {
+    main#todoconteudo article#conteiner section#conteudo div#texto {
+        width: 250px;
+        padding-top: 235px;
+    
+    }
+
+    main#todoconteudo article#conteiner section#conteudo div#texto {
+        padding-top: 236px;
+    
+    }
+
+    main#todoconteudo article#conteiner section#conteudo div#texto div#campo1 div#campo2 input {
+        width: 232px;
+    
+    }
+
+}
+
+@media screen and (max-width:667px) {
+    main#todoconteudo article#conteiner section#conteudo div#texto {
+        width: 180px;
+        padding-left: 20px;
+    
+    }
+
+    main#todoconteudo article#conteiner section#conteudo div#texto div#campo1 div#campo2 input {
+        width: 180px;
+    
+    }
+
+}
+
+@media screen and (max-width:457px) {
+    main#todoconteudo article#conteiner section#conteudo div#texto {
+        width: 120px;
+        padding-left: 15px;
+    
+    }
+
+    main#todoconteudo article#conteiner section#conteudo div#texto div#campo1 div#campo2 input {
+        width: 80px;
+    
+    }
+
+}
+
+@media screen and (max-width:357px) {
+    main#todoconteudo article#conteiner section#conteudo div#texto {
+        width: 120px;
+        padding-right: 85px;
+    
+    }
+
+    main#todoconteudo article#conteiner section#conteudo div#texto div#campo1 div#campo2 input {
+        width: 80px;
+    
+    }
+
+    main#todoconteudo article#conteiner {
+        padding: 50px;
+    
+    }
+
+    main#todoconteudo article#conteiner section#conteudo div#texto {
+        width: 20px;
+    
+    }
+
+}
